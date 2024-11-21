@@ -72,7 +72,7 @@ export default function BannerComponent() {
       ref={containerRef}
       className="relative flex h-[450px] w-full flex-col flex-nowrap items-center justify-start overflow-hidden rounded-[24px] bg-primary px-[16px] pt-[72px] text-white md:h-[715px] md:px-[24px] md:pt-[144px] xl:h-[820px]"
     >
-      <HeaderComponent className="absolute left-[20px] right-[20px] top-[20px] z-50 flex h-[45px] items-start justify-between rounded-[60px] bg-secondary px-[20px] py-[14px] md:h-[62px] md:items-center md:rounded-full md:px-10 md:py-[18px]" />
+      <HeaderComponent className="absolute left-[20px] right-[20px] top-[20px] z-50 flex h-[45px] items-start justify-between rounded-[60px] bg-secondary px-[20px] py-[14px] md:h-[62px] md:items-center md:rounded-full md:px-10 md:py-[18px] overflow-hidden" />
 
       <div className="relative h-[375px] min-h-[375px] w-[350px] font-archivo text-[64px] font-black leading-[68px] tracking-[-0.04em] md:h-[609px] md:min-h-[609px] md:w-[778px] md:text-[136px] md:leading-[150px] xl:w-[930px] xl:text-[175px] xl:leading-[190px]">
         <h1 className="absolute left-[47%] top-[64px] -translate-x-1/2 md:left-[46%] md:top-[84px] xl:left-[45%] xl:top-[81px]">

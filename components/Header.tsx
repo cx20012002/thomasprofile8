@@ -38,9 +38,9 @@ export default function Header() {
   return (
     <div
       ref={containerRef}
-      className="fixed left-1/2 z-50 flex w-[90%] -translate-x-1/2 items-center justify-between opacity-0 md:w-[600px]"
+      className="fixed left-1/2 z-50 flex w-[90%] -translate-x-1/2 items-center justify-between opacity-0 md:w-[600px] top-4"
     >
-      <HeaderComponent className="absolute left-[20px] right-[20px] top-[20px] z-50 flex h-[45px] items-start justify-between rounded-[60px] bg-secondary px-[20px] py-[14px] md:h-[62px] md:items-center md:rounded-full md:px-10 md:py-[18px]" />
+      <HeaderComponent className="absolute md:left-[20px] md:right-[20px] w-full md:w-auto top-0 z-50 flex h-[45px] items-start justify-between rounded-[60px] bg-secondary px-[20px] py-[14px] md:h-[62px] md:items-center md:rounded-full md:px-10 md:py-[18px] overflow-hidden" />
     </div>
   );
 }
